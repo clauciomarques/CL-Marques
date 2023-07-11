@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+/* Container principal */
+.container {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilos para os resumos */
+.retangulo1,
+.retangulo2,
+.retangulo3,
+.retagulo4,
+.retangulo5 {
+  width: 656px;
+  height: 91px;
+  background: rgba(237, 252, 237, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* Estilos para o botão "Finalizar Pedido" */
+.button-verde-fimpedido {
+  width: 167px;
+  height: 44px;
+  background: rgba(55, 189, 69, 1);
+  position: absolute;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* Estilos para os textos */
+.resumo,
+.finalizar-pedido,
+.adicionar-endereco,
+.viwer-endereco,
+.carrinho,
+.home {
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Posicionamento dos elementos */
+.fundo-resumo {
+  width: 353px;
+  height: 528px;
+  background: rgba(237, 251, 237, 1);
+  position: absolute;
+  top: 313px;
+  left: 1010px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.adicionar-endereco {
+  width: 203px;
+  height: 35px;
+  background: rgba(55, 189, 69, 1);
+  position: absolute;
+  top: 419px;
+  left: 690px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* Posicionamento dos ícones */
+.carrinho,
+.inicio,
+.perfil,
+.picpay,
+.mastercard,
+.visa,
+.elo,
+.pix {
+  opacity: 1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.carrinho {
+  width: 50px;
+  height: 50px;
+  background: url("../images/carrinho.png");
+  top: 0px;
+  left: 157px;
+}
+
+.inicio {
+  width: 50px;
+  height: 50px;
+  background: url("../images/inicio.png");
+  top: 0px;
+  left: 18px;
+}
+
+.perfil {
+  width: 50px;
+  height: 50px;
+  background: url("../images/perfil.png");
+  top: 0px;
+  left: 734px;
+}
+
+.picpay {
+  width: 130px;
+  height: 42px;
+  background: url("../images/picpay.png");
+  top: 676px;
+  left: 738px;
+}
+
+.mastercard {
+  width: 53px;
+  height: 34px;
+  background: url("../images/mastercard.png");
+  top: 801px;
+  left: 819px;
+}
+
+.visa {
+  width: 79px;
+  height: 26px;
+  background: url("../images/visa.png");
+  top: 805px;
+  left: 730px;
+}
+
+.elo {
+  width: 84px;
+  height: 29px;
+  background: url("../images/elo.png");
+  top: 802px;
+  left: 643px;
+}
+
+.pix {
+  width: 128px;
+  height: 46px;
+  background: url("../images/pix.png");
+  top: 906px;
+  left: 738px;
+}
